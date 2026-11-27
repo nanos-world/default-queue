@@ -10,7 +10,7 @@ Queue = {
 Package.Export("Queue", Queue)
 
 if (type(Queue.queue_message) ~= "string") then
-	Queue.queue_message = "server is full. you are {position} of {size} in the queue."
+	Queue.queue_message = "server is full. you are {position} of {size} in the queue"
 end
 
 local function GetMessage(position)
